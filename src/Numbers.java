@@ -15,7 +15,6 @@ public class Numbers {
     private static void showAddOperation(List<Double> numbers, double sum) {
         String a = "";
         for (int i = 0; i < numbers.size() - 1; i++) {
-            String.valueOf(numbers);
             a += numbers.get(i) + " + ";
         }
         System.out.println(a + numbers.get(numbers.size() - 1) + " = " + sum);
